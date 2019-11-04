@@ -3,6 +3,7 @@
     box-sizing: border-box;
     text-align: center;
     background-attachment: gray;
+
   }
 
 body {
@@ -34,13 +35,15 @@ body {
         margin-right: 25px;
         margin-left: 10%;
         margin-bottom: 20px;
+    
         width: 50%;
         color: darkgray;
         background: white;
       }
       #article{
+          padding: 17px;
         margin-right: 10%;
-        margin-left: 10%;
+        margin-left: 15%;
         margin-bottom: 20px;
         width: 70%;
         color: white;
@@ -48,7 +51,7 @@ body {
       }
       #h1h2h3{
         margin-right: 10%;
-        margin-left: 10%;
+        margin-left: 15%;
         
         width: 70%;
         margin-bottom: 20px;
@@ -56,16 +59,15 @@ body {
         background: white;
       }
       #p{
-        padding: 20px;
         margin-right: 10%;
-        margin-left: 10%;
-        margin-bottom: 20px;
+        margin-left: 15%;
+        margin-bottom: 5px;
         width: 70%;
         color: black;
-        background: green;
+        background: white;
       }
       #aside{
-        padding: 77px;
+        padding: 87px;
         float: left;
         width: 430px;
         margin-right: 10%;
