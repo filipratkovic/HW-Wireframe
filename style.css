@@ -1,90 +1,84 @@
-
 * {
-    box-sizing: border-box;
-    text-align: center;
-    background-attachment: gray;
-
-  }
-
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color:grey;
+  background:whitesmoke;
+}
 body {
-    font-size: 24px;
-    line-height: 32px;
-    color: #333;
-    background-color: gray;
-  }
-  
-  header {
-    padding: 25px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+  background:grey;
+}
+#nav{
+  padding: 20px;
+  margin-bottom: 20px;
+  color:grey;
+  background:whitesmoke;
+}
+#section1{
+    float: left;
+    width: 55%;
+    padding: 20px;
     margin-bottom: 20px;
-    margin-right: 10%;
-    margin-left: 10%;
-    color: darkgray;
-    background: white;
-  }
-  .center {
-    padding: 25px;
-    margin-bottom: 20px;
-    margin-right: 10%;
-    margin-left: 10%;
-    color: darkgray;
-    background: white;
-  }
+    color:grey;
+    background:whitesmoke;
+    text-align: center;
+    margin-right: 1%;
+}
+#article1{
+  width: 97%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right:1%;
+  color:white;
+  background:grey;
+}
+#inside1{
+  width: 97%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right:1%;
+  color: grey;
+  background:whitesmoke;
+}
+#inside2{
+  width: 97%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right:1%;
+  color: grey;
+  background:whitesmoke;
+}
+#aside{
+  float: left;
+  width: 33%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 1%;
+  margin-right: 0.2%;
+  color:grey;
+  background:whitesmoke;
+  text-align: center;
+  height: 360px;
+}
+footer{
+  padding: 20px;
+  margin-bottom: 20px;
+  color:grey;
+  background:whitesmoke;
+  clear: both;
+}
 
-  #leftSection{
-        float: left;
-        margin-right: 25px;
-        margin-left: 10%;
-        margin-bottom: 20px;
-    
-        width: 50%;
-        color: darkgray;
-        background: white;
-      }
-      #article{
-          padding: 17px;
-        margin-right: 10%;
-        margin-left: 15%;
-        margin-bottom: 20px;
-        width: 70%;
-        color: white;
-        background: darkgrey;
-      }
-      #h1h2h3{
-        margin-right: 10%;
-        margin-left: 15%;
-        
-        width: 70%;
-        margin-bottom: 20px;
-        color: black;
-        background: white;
-      }
-      #p{
-        margin-right: 10%;
-        margin-left: 15%;
-        margin-bottom: 5px;
-        width: 70%;
-        color: black;
-        background: white;
-      }
-      #aside{
-        padding: 87px;
-        float: left;
-        width: 430px;
-        margin-right: 10%;
-        color: darkgray;
-        background: white;
-      }
-
-      footer {
-        padding: 25px;
-        clear: both;
-        margin-top: 20px;
-        margin-right: 10%;
-        margin-left: 10%;
-        color: darkgray;
-        background: white;
-      }
-
-      .clearfix {
-        overflow: auto;
-      }
